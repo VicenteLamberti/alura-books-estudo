@@ -70,6 +70,10 @@
     display: none;
 }
 
+.opcoes{
+    display: none;
+}
+
 @media screen and (min-width: 1024px){
 
     .container__titulo, .container__titulo--negrito{
@@ -84,5 +88,27 @@
 
     .container__titulo--negrito{
         font-weight: 700;
+    }
+
+    .opcoes{
+        display: flex;
+    }
+
+    .opcoes__item{
+        text-transform: uppercase;
+        padding: 0 1em;
+    }
+
+    .opcoes__link{
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .container__imagem-transparente{
+        display: none;
+    }
+
+    .cabecalho__menu_hamburguer{
+        display: none;
     }
 }
