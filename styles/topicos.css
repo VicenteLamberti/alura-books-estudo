@@ -1,0 +1,32 @@
+.topicos-recentes__banner{
+   
+    background: var(--azul-degrade);
+    border-top: 1em solid white;
+}
+
+.topicos-recentes__banner__linha{
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 1em;
+    align-items: center;
+
+}
+.topicos-recentes__ancora{
+    background-color: var(--laranja);
+    padding: 1em ;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+
+}
+
+.topicos-recentes__banner__linha__ultimo{
+
+    display: flex;
+    justify-content: space-around ;
+    flex-direction: row;
+    padding: 1em;
+}
+
