@@ -30,3 +30,12 @@
     padding: 1em;
 }
 
+
+.topicos-recentes__banner__titulo{
+    color: var(--branco);
+    text-align: center;
+    padding: 1em;
+    text-transform: uppercase;
+    font-weight: 300;
+
+}
